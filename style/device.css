@@ -1,0 +1,11 @@
+@media screen and (max-width:576px) {
+    #hamburg{
+        display: block;
+    }
+    .nav-a{
+        display: none;
+    }
+    nav{
+        width: 93%;
+    }
+}
