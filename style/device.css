@@ -80,4 +80,47 @@ height: 72.58px;
     /* border: 2px solid red; */
     
     }
+    /* section1 style */
+    .section1-card{
+        flex-direction: column;
+        
+        
+    }
+    .section1{
+        width: 92%;
+    }
+    .section1-text{
+        width: 100%;
+    }
+    .cards{
+        margin-bottom: 40px;
+    }
+    .cards h4{
+        margin-top: 20px;
+    }
+    /* section2 */
+    .section2{
+        flex-direction: column;
+        width: 93%;
+        height: 531px;
+    }
+    .section2-img{
+        margin-left: 0;
+        width: 287px;
+height: 170px;
+    }
+    .section2-text{
+        width: 80%;
+        margin-left: 0;
+        margin-top: 31px;
+    }
+    .section2-text h1{
+        font-size: 2rem;
+    }
+    .section2-text p{
+        font-size: 0.9rem;
+    }
+    .section2-text button{
+        width: 100%;
+    }
 }

@@ -60,7 +60,7 @@ border-radius: 39px;
 /* banner style */
 .banner{
     width: 74%;
-    margin: 32px auto;
+    margin: 32px auto 0px auto;
     /* border: 2px solid red; */
     display: flex;
     justify-content:space-between ;
@@ -194,9 +194,125 @@ font-weight: 400;
     color: white;
     border: none;  
 }
+/* section1 style */
+main{
+    background: rgb(0, 0, 0);
+}
+.section1{
+    width: 74%;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+}
+.section1-text{
+    width: 57%;
+
+margin: 0 auto;
+text-align: center;
+}
+.section1-text h1{
+    color: rgb(255, 255, 255);
+
+font-size: 3rem;
+font-weight: 900;
+
+}
+.section1-text p{
+    color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+font-size: 0.9rem;
+font-weight: 400;
+
+}
+.section1-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    /* border: 2px solid red; */
+}
+.cards{
+ text-align: center;
+ /* border: 2px solid rgb(170, 255, 0); */
+ height: 275px;
+}
+.cards img{
+    border-radius: 50% 50%;
+}
+.cards h4{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+font-size: 1.1rem;
+font-weight: 600;
+
+}
+.cards p{
+    color: rgba(255, 255, 255, 0.5);
+    width: 231px;
+height: 274px;
+  margin-top: 8px;
+font-size:0.8rem;
+font-weight: 400;
+
+}
+/* section2 style */
+.section2{
+    width: 74%;
+    height: 371px;
+    margin: 0 auto;
+    display: flex;
+    /* border: 2px solid blanchedalmond; */
+    border-radius: 18px;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(34,34,34);
+}
+.section2-img{
+    width: 366px;
+height: 312px;
+/* border: 2px solid yellow; */
+margin-left: 220px;
 
 
+}
+.section2-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+}
+.section2-text{
+    width: 37%;
+height: 290px;
+/* border: 2px solid red; */
+margin-left:60px;
 
+}
+.section2-text h1{
+    color: rgb(255, 255, 255);
+ margin-bottom: 14px;
+font-size: 3rem;
+font-weight: 900;
+
+}
+.section2-text p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+font-size: 0.9rem;
+font-weight: 400;
+
+}
+.section2-text button{
+    width: 224px;
+height: 54px;
+border-radius: 42px;
+
+background: rgb(230, 83, 60);
+color: rgb(255, 255, 255);
+
+font-size: 1.2rem;
+font-weight: 600;
+
+}
 
 
 
