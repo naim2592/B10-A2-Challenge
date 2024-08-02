@@ -1,11 +1,83 @@
 @media screen and (max-width:576px) {
     #hamburg{
         display: block;
+        color: white;
+        font-size: 1.5rem;
+        
     }
     .nav-a{
         display: none;
     }
     nav{
         width: 93%;
+    }
+    /* banner style */
+    .banner{
+        flex-direction: column;
+    }
+    .banner-text{
+      width: 100%;
+    }
+    .banner-text h1{
+        font-size: 2.2rem;
+    }
+    .banner{
+        width: 93%;
+        
+    }
+    .banner-heading{
+         width: 67%;
+    }
+    .banner-text  button{
+        width: 160px;
+    height: 54px;
+    font-size: 0.9rem;
+    
+ }
+    .banner-img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .banner-card1{
+        width: 145.91px;
+height: 74.09px;
+ top: 10%;
+ left: 55%;
+
+    }
+    .banner-card1 h2{
+        font-size: 2.5rem;
+    }
+    .banner-card1 p{
+        font-size: 0.5rem;
+    }
+    .banner-card2{
+        width: 155.74px;
+height: 72.58px;
+     top: 46%;
+     right: 55%;
+    }
+    .banner-card2 h4{
+        font-size: 1.2rem;
+    }
+    .banner-card2 p{
+        font-size: 0.6rem;
+    }
+    
+    .play{
+        display: block;
+        color: aliceblue;
+        padding: 3px 6.5px;
+        
+    }
+    #circle{
+        width: 25px;
+        height: 25px;
+    }
+    #shape{
+        font-size: 4.5rem;
+    width: 105px;
+    /* border: 2px solid red; */
+    
     }
 }
