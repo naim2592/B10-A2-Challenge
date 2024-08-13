@@ -186,4 +186,42 @@ height: 170px;
 .section5-text h1{
     font-size: 2rem;
 }
+/* footer */
+footer{
+padding-top: 30px;
+    
+}
+.footer{
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+.part1{
+    width: 90%;
+    margin-bottom: 30px;
+}
+footer>hr{
+    width: 90%;
+}
+/* unique section style */
+.unique{
+    width: 90%;
+}
+.unique h1{
+    font-size: 2.5rem;
+}
+.unique-cards{
+    flex-direction: column;
+}
+.unique-card1{
+    width: 100%;
+    box-shadow: none;
+}
+.unique-card1 h1{
+    font-size: 1.5rem;
+}
+
+
+
+
 }
