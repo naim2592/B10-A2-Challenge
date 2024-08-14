@@ -27,12 +27,12 @@
         
     }
     .banner-heading{
-         width: 67%;
+         width: 69%;
     }
     .banner-text  button{
-        width: 160px;
-    height: 54px;
-    font-size: 0.9rem;
+        width:48%;
+        height: 54px;
+        font-size: 0.9rem;
     
  }
     .banner-img{
@@ -41,10 +41,10 @@
     }
     .banner-card1{
         width: 145.91px;
-height: 74.09px;
- top: 10%;
- left: 55%;
-
+        height: 74.09px;
+        top: 10%;
+        left: 55%;
+    
     }
     .banner-card1 h2{
         font-size: 2.5rem;
@@ -78,10 +78,12 @@ height: 72.58px;
     #shape{
         font-size: 4.5rem;
     width: 105px;
-    /* border: 2px solid red; */
+    
     
     }
+
     /* section1 style */
+
     .section1-card{
         flex-direction: column;
         
@@ -140,6 +142,7 @@ height: 170px;
         width: 100%;
     }
     /* section3 style */
+
     .section3{
         width: 90%;
     }
@@ -173,6 +176,7 @@ height: 170px;
         margin-right: 35px;
     }
 /* section 5 */
+
 .section5-team{
     grid-template-columns: repeat(1,1fr);
     height: 1850px;
@@ -215,11 +219,15 @@ footer>hr{
 }
 .unique-card1{
     width: 100%;
-    box-shadow: none;
+    box-shadow: 4px 4px 4px red;
+    
 }
+
 .unique-card1 h1{
     font-size: 1.5rem;
 }
+
+   
 
 
 

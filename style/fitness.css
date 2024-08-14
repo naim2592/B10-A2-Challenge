@@ -11,7 +11,9 @@ body{
    background-color: rgb(34, 34, 34);
     
 }
-/* nav style */
+
+/* navbar style */
+
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
@@ -49,7 +51,7 @@ margin-right: 15px;
     border:none;
 }
 .nav-a{
-    box-sizing: border-box;
+    
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 39px;
 
@@ -61,7 +63,7 @@ border-radius: 39px;
 .banner{
     width: 74%;
     margin: 32px auto 0px auto;
-    /* border: 2px solid red; */
+    
     display: flex;
     justify-content:space-between ;
     align-items: center;
@@ -89,7 +91,7 @@ margin-bottom: 28px;
 
 }
 .join{
-    width: 224px;
+    width: 45%;
 height: 54px;
 border-radius: 42px;
 
@@ -119,7 +121,7 @@ margin-left: 8px;
 .banner-card1{
     width: 193px;
 height: 98px;
-box-sizing: border-box;
+
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
  padding-top: 10px;
@@ -149,7 +151,7 @@ font-weight: 400;
 .banner-card2{
     width: 206px;
 height: 96px;
-box-sizing: border-box;
+
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
 
@@ -189,12 +191,13 @@ font-weight: 400;
     font-family:miama;
     font-weight: 200;
     font-size: 10rem;
-    background-color: transparent;
+    
     line-height: 10px;
     color: white;
-    border: none;  
+
 }
 /* section1 style */
+
 main{
     background: rgb(0, 0, 0);
 }
@@ -229,11 +232,11 @@ font-weight: 400;
     justify-content: space-between;
     align-items: center;
     margin-top: 48px;
-    /* border: 2px solid red; */
+    
 }
 .cards{
  text-align: center;
- /* border: 2px solid rgb(170, 255, 0); */
+ 
  height: 275px;
 }
 .cards img{
@@ -289,7 +292,7 @@ margin-left: 220px;
 .section2-text{
     width: 37%;
 height: 290px;
-/* border: 2px solid red; */
+
 margin-left:60px;
 
 }
@@ -311,7 +314,7 @@ font-weight: 400;
     width: 224px;
 height: 54px;
 border-radius: 42px;
-
+border: none;
 background: rgb(230, 83, 60);
 color: rgb(255, 255, 255);
 
@@ -350,7 +353,7 @@ font-weight: 400;
 .form{
     width: 38%;
 height: 386px;
-/* border: 2px solid red; */
+
 }
 table{
     width: 310px;
@@ -432,14 +435,14 @@ margin-top: 20px;
 .section5{
     width: 74%;
     margin: 0 auto;
-    /* border: 2px solid springgreen; */
+    
     
 }
 .section5-team{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:0px ;
-    /* border: 2px solid skyblue; */
+    
     border-radius: 18px;
      align-items: center;
      justify-items: center;
@@ -450,7 +453,7 @@ background: rgba(255, 255, 255, 0.1);
    
    width: 93%;
 height: 285px;
- /* border: 2px solid red; */
+ 
  position: relative;
  
    
@@ -559,6 +562,8 @@ padding-bottom: 35px;
 
 }
 /* unique section */
+
+
 .unique{
     width: 74%;
     margin: 0 auto;
